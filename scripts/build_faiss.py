@@ -26,6 +26,7 @@ def load_all_data(folder_path):
         dfs.append(df)
     return dfs
 
+
 # Extract meaningful text from each dataset
 def extract_knowledge(dfs):
     knowledge_texts = []
